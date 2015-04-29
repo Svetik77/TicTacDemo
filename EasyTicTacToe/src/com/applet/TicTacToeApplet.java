@@ -102,9 +102,9 @@ public class TicTacToeApplet extends JApplet implements MouseListener {
 	}
 
 	private boolean setMyColor(int i, int j, int k) {
-		button[i].setBackground(Color.red);
-		button[j].setBackground(Color.red);
-		button[k].setBackground(Color.red);
+		button[i].setBackground(Color.green);
+		button[j].setBackground(Color.green);
+		button[k].setBackground(Color.green);
 
 		return true;
 
